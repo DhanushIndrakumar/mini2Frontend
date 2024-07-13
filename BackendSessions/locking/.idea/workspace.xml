@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7b305109-ff62-4f49-bb91-4150e08f4b27" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../BackendSessions/ExceptionHandler/.idea/ExceptionHandler.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackendSessions/JPAGuvi/.idea/JPAGuvi.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackendSessions/JSP/.idea/JSP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackendSessions/SpringBootProjects/Paypal/.idea/Paypal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BackendSessions/mongo/.idea/mongo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Bhanu_v1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dockerex/.idea/Dockerex.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dockerex/docker-example/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontendSessions/Guvi_frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontendSessions/Guvi_frontend/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontendSessions/WEBCRAWLERHTTP/node_modules/iconv-lite/.idea/iconv-lite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontendSessions/guvi_frontend2/.vscode/part2/Style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontendSessions/guvi_frontend2/.vscode/part2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontendSessions/guvi_frontend2/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontendSessions/guvi_frontend2/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontendSessions/guvi_frontend2/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontendSessions/guvi_frontend2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontendSessions/guvi_frontend2/services.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FrontendSessions/guvi_frontend2/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC/.idea/JDBC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC/GuviJDBC/GuviJDBC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC/JDBCCourse/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC/JDBCCourse/JDBCCourse.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC/JDBCCourse2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC/JDBCCourse2/.idea/libraries/postgresql_42_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC/JDBCCourse2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC/JDBCCourse2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC/JDBCCourse2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC/JDBCCourse2/JDBCCourse2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC/JDBCCourse3/JDBCCourse3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPA/.idea/JPA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobMVC/.idea/Job2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mappings/.idea/Mappings.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Micro/Api-gateway/.idea/Api-gateway.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Micro/Server/.idea/Server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Micro/microservice/.idea/microservice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Micro/microservice1/.idea/microservice1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Micro/microservice2/.idea/microservice2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New_Comp/.idea/New_Comp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../New_Comp/ThinClockBackend/.idea/ThinClockBackend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Question-console/Question-console.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Question-console/out/production/Question-console/Question-console.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quiz/.idea/Quiz.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Security2/.idea/Security2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Splitwise/.idea/Splitwise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/.idea/SplitwiseNew.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/splitwise/src/main/java/Splitwise2/splitwise/AuthImplementation/JWTServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/splitwise/src/main/java/Splitwise2/splitwise/AuthImplementation/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/splitwise/src/main/java/Splitwise2/splitwise/Config/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/splitwise/src/main/java/Splitwise2/splitwise/Controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/splitwise/src/main/java/Splitwise2/splitwise/Controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/splitwise/src/main/java/Splitwise2/splitwise/DTO/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/splitwise/src/main/java/Splitwise2/splitwise/DTO/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/splitwise/src/main/java/Splitwise2/splitwise/DTO/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/splitwise/src/main/java/Splitwise2/splitwise/DTO/RegisterResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/splitwise/src/main/java/Splitwise2/splitwise/Filter/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/splitwise/src/main/java/Splitwise2/splitwise/Service/JWTService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/splitwise/src/main/java/Splitwise2/splitwise/Service/UserCommonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/splitwise/src/main/java/Splitwise2/splitwise/Service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/splitwise/src/main/java/Splitwise2/splitwise/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/splitwise/src/main/java/Splitwise2/splitwise/respository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringJDBC/.idea/SpringJDBC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringJDBC/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringREST/.idea/SpringREST.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringSecurity/.idea/SpringSecurity.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing/.idea/Testing.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thymeleaf/Thy2/.idea/Thy2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thymeleaf/ThymeleafDemons/.idea/ThymeleafDemons.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com_shanthan/.idea/Splitwise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../e2/CU00377-LOA.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../e2/Candidate Information form.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../e2/Joining Forms_E2open/Joining Forms/Employment Application form (India).docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../e2/Joining Forms_E2open/Joining Forms/Form - 2 (Nomination Form).doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../e2/Joining Forms_E2open/Joining Forms/Form F - Nomination Gratuity Act.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../e2/Joining Forms_E2open/Joining Forms/Latest PF Form 11 - Declaration Form.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../e2/Joining Forms_E2open/Sample forms to understand/PF Form 11.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../e2/Joining Forms_E2open/Sample forms to understand/PF Form 2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../e2/Joining Forms_E2open/Sample forms to understand/PF Form F.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../e2/LOA.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../e2/LOA.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../important/DL.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../important/DhanushPass.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../important/HTMLCheatSheet.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../important/Offer_Document_Dhanush_I.docx.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../important/Summary.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../important/Voter.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../important/experience.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jobMVCJpa/.idea/jobMVCJpa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js/guvi1/Home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js/guvi1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js/guvi1/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/locking.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/busreservation/src/main/java/com/guvi/busreservation/controller/LockingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/busreservation/src/main/java/com/guvi/busreservation/entity/BusDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/busreservation/src/main/java/com/guvi/busreservation/entity/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/busreservation/src/main/java/com/guvi/busreservation/repository/BusDetailsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/busreservation/src/main/java/com/guvi/busreservation/repository/TicketRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/busreservation/src/main/java/com/guvi/busreservation/service/BookingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/busreservation/src/main/java/com/guvi/busreservation/service/SeatNotAvailable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mongo2/mongo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mongo2/mongo/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mongo2/mongo/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mongo2/mongo/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mongo2/mongo/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mongo2/mongo/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mongo2/mongo/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mongo2/mongo/src/main/java/com/example/mongo/MongoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mongo2/mongo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mongo2/mongo/src/test/java/com/example/mongo/MongoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springthymeleaf/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springthymeleaf/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springthymeleaf/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springthymeleaf/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springthymeleaf/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springthymeleaf/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springthymeleaf/.idea/springthymeleaf.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springthymeleaf/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springthymeleaf/thymleafdemo/src/main/java/com/thymleaf/thymleafdemo/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springthymeleaf/thymleafdemo/src/main/java/com/thymleaf/thymleafdemo/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springthymeleaf/thymleafdemo/src/main/java/com/thymleaf/thymleafdemo/entity/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springthymeleaf/thymleafdemo/src/main/java/com/thymleaf/thymleafdemo/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springthymeleaf/thymleafdemo/src/main/java/com/thymleaf/thymleafdemo/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springthymeleaf/thymleafdemo/src/main/resources/templates/addProduct.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springthymeleaf/thymleafdemo/src/main/resources/templates/displayProduct.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springthymeleaf/thymleafdemo/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springthymeleaf/thymleafdemo/src/main/resources/templates/productList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springthymeleaf/thymleafdemo/src/main/resources/templates/products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springthymeleaf/thymleafdemo/src/main/resources/templates/trial.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2fURcAFJ5vH1uamtHmlb5iLrM0G" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BusreservationApplication.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Admin/Desktop/BackendSessions/ExceptionHandler"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b305109-ff62-4f49-bb91-4150e08f4b27" name="Changes" comment="" />
+      <created>1713853746863</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713853746863</updated>
+    </task>
+    <servers />
+  </component>
+</project>

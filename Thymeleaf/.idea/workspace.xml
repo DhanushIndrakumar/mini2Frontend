@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1d83a86d-9ece-49ad-8f92-22e6e61a2988" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Dockerex/.idea/Dockerex.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dockerex/docker-example/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC/.idea/JDBC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC/GuviJDBC/GuviJDBC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC/JDBCCourse/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC/JDBCCourse/JDBCCourse.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC/JDBCCourse2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC/JDBCCourse2/.idea/libraries/postgresql_42_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC/JDBCCourse2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC/JDBCCourse2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC/JDBCCourse2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC/JDBCCourse2/JDBCCourse2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC/JDBCCourse3/JDBCCourse3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JPA/.idea/JPA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JobMVC/.idea/Job2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mappings/.idea/Mappings.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Micro/Api-gateway/.idea/Api-gateway.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Micro/Server/.idea/Server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Micro/microservice/.idea/microservice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Micro/microservice1/.idea/microservice1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Micro/microservice2/.idea/microservice2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Question-console/Question-console.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Question-console/out/production/Question-console/Question-console.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quiz/.idea/Quiz.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Security2/.idea/Security2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Splitwise/.idea/Splitwise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/.idea/SplitwiseNew.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/splitwise/src/main/java/Splitwise2/splitwise/AuthImplementation/JWTServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/splitwise/src/main/java/Splitwise2/splitwise/AuthImplementation/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/splitwise/src/main/java/Splitwise2/splitwise/Config/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/splitwise/src/main/java/Splitwise2/splitwise/Controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/splitwise/src/main/java/Splitwise2/splitwise/Controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/splitwise/src/main/java/Splitwise2/splitwise/DTO/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/splitwise/src/main/java/Splitwise2/splitwise/DTO/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/splitwise/src/main/java/Splitwise2/splitwise/DTO/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/splitwise/src/main/java/Splitwise2/splitwise/DTO/RegisterResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/splitwise/src/main/java/Splitwise2/splitwise/Filter/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/splitwise/src/main/java/Splitwise2/splitwise/Service/JWTService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/splitwise/src/main/java/Splitwise2/splitwise/Service/UserCommonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/splitwise/src/main/java/Splitwise2/splitwise/Service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/splitwise/src/main/java/Splitwise2/splitwise/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SplitwiseNew/splitwise/src/main/java/Splitwise2/splitwise/respository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringJDBC/.idea/SpringJDBC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringJDBC/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringSecurity/.idea/SpringSecurity.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing/.idea/Testing.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing/testing/src/main/java/Testing/demo/testing/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing/testing/src/main/java/Testing/demo/testing/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing/testing/src/main/java/Testing/demo/testing/reposiitory/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing/testing/src/main/java/Testing/demo/testing/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing/testing/src/test/java/Testing/demo/testing/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Testing2/.idea/Testing2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thy2/.idea/Thy2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ThymeleafDemons/.idea/ThymeleafDemons.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com_shanthan/.idea/Splitwise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dockerexample/.idea/dockerexample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dockerexample/demo/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dockerexample/demo/src/main/java/dockerexample/demo/Controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../important/DL.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../important/DhanushPass.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../important/HTMLCheatSheet.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../important/Offer_Document_Dhanush_I.docx.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../important/Summary.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../important/Voter.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../important/experience.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jobMVCJpa/.idea/jobMVCJpa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js/guvi1/Home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js/guvi1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../js/guvi1/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maps/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maps/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maps/EkartDataBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maps/EkartDataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maps/MapVsFlatMap.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../maps/MapVsFlatMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/.idea/mini2Backend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/demo/src/main/java/mini2Backend/demo/AuthImplementation/JWTServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/demo/src/main/java/mini2Backend/demo/AuthImplementation/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/demo/src/main/java/mini2Backend/demo/Config/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/demo/src/main/java/mini2Backend/demo/DTO/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/demo/src/main/java/mini2Backend/demo/DTO/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/demo/src/main/java/mini2Backend/demo/DTO/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/demo/src/main/java/mini2Backend/demo/DTO/RegisterResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/demo/src/main/java/mini2Backend/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/demo/src/main/java/mini2Backend/demo/Filter/JWTAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/demo/src/main/java/mini2Backend/demo/controllers/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/demo/src/main/java/mini2Backend/demo/controllers/DoctorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/demo/src/main/java/mini2Backend/demo/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/demo/src/main/java/mini2Backend/demo/entities/Appointment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/demo/src/main/java/mini2Backend/demo/entities/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/demo/src/main/java/mini2Backend/demo/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/demo/src/main/java/mini2Backend/demo/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/demo/src/main/java/mini2Backend/demo/service/JWTService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/demo/src/main/java/mini2Backend/demo/service/UserCommonService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/demo/src/main/java/mini2Backend/demo/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mini2Backend/demo/src/test/java/mini2Backend/demo/DemoApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2iZ7nNXsoscdVb3rw2C90GLXcG3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Admin/Desktop/Thymeleaf"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d83a86d-9ece-49ad-8f92-22e6e61a2988" name="Changes" comment="" />
+      <created>1719686411115</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719686411115</updated>
+    </task>
+    <servers />
+  </component>
+</project>

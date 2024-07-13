@@ -1,0 +1,27 @@
+table,th,td{
+    border: 2px solid gray;
+    text-align:center;
+    padding: 5px;
+}
+
+th{
+    background-color:gray;
+
+}
+table{
+    width:80vw;
+    height:80vh;
+}
+td{
+    background-color: black;
+    color:white;
+    font-size:15px;
+
+}
+td:nth-child(odd){
+    background:rgb(127,174,255);
+}
+td:nth-child(black){
+    background:rgb(127,174,255);
+}
+

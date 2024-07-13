@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" name="enrollmentForm" method="post">
+        <label for="firstname">FirstName:</label>
+        <input type="text" name="firstname" placeholder="
+        Enter your firstName" id="firstname">
+
+        <label for="lastname">LastName:</label>
+        <input type="text" name="lastname" placeholder="
+        Enter your lastName" id="lastname">
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="
+        Enter your email" id="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required>
+
+        <label for="dob">DOB:</label>
+        <input type="date" name="dob" id="dob" required>
+
+        <label for="">Upload</label>
+        <input type="file">
+
+        <label for="">Gender</label>
+        <input type="radio" name="gender" id="male" value="male">Male
+        <input type="radio" name="gender" id="female" value="female">Female
+        <input type="radio" name="gender" id="other" value="other">Other
+
+        <label for="">Hobbies</label>
+        <input type="checkbox" name="music" id="music" value="music">Music
+        <input type="checkbox" name="painting" id="painting" value="painting">Painting
+        <input type="checkbox" name="tennis" id="tennis" value="tennis">Tennis
+
+        <label for="">Country</label>
+        <select name="country" id="country">
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="india">India</option>
+            <option value="australia">Australia</option>
+        </select>
+
+        <input type="submit">
+
+    </form>
+    
+</body>
+</html>
