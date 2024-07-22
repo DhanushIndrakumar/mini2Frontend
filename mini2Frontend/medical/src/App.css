@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.AddBorder{
+ .AddBorder{
   margin-top:5;
   padding-left:5;
   padding-right:5;
@@ -10,9 +10,9 @@
   padding-bottom:5;
   border: 5px solid green;
   border-radius: 15px;
-}
+} 
 .special{
   margin-left:0;
   padding-left:0;
-}
+} 
 

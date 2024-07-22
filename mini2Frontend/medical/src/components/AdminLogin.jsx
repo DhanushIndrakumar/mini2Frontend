@@ -17,31 +17,44 @@ export default function AdminLogin() {
     };
   
     const handleSubmit = async (event) => {
-      event.preventDefault();
-      const loginData = {
-        email: email,
-        password: password,
+        event.preventDefault();
+        const loginData = {
+          email: email,
+          password: password,
+        };
+    
+        try {
+          const loginResponse = await axios.post("http://localhost:8082/api/auth/login", loginData, {
+            headers: {
+              "Content-Type": "application/json",
+            },
+          });
+    
+          const token = loginResponse.data.token;
+          // Store the token in local storage
+          localStorage.setItem('token', token);
+    
+          console.log("Login successful:", loginResponse.data);
+    
+          // Now use the token to get user details
+          const userDetailsResponse = await axios.post("http://localhost:8082/api/auth/getDetailsByToken", { token }, {
+            headers: {
+              "Content-Type": "application/json",
+            },
+          });
+    
+          // Store the user details in local storage
+          localStorage.setItem('doctor', JSON.stringify(userDetailsResponse.data));
+    
+          console.log("User details retrieved successfully:", userDetailsResponse.data);
+    
+          // Redirect or perform other actions after successful login
+          navigate("/doctoroperations");
+        } catch (error) {
+          console.error("Login error:", error.response ? error.response.data : error.message);
+          // Handle errors (e.g., show an error message)
+        }
       };
-  
-      try {
-        const response = await axios.post("http://localhost:8082/api/auth/login", loginData, {
-          headers: {
-            "Content-Type": "application/json",
-          },
-        });
-  
-        const token = response.data.token;
-        // Store the token in local storage
-        localStorage.setItem('token', token);
-  
-        console.log("Login successful:", response.data);
-        // Redirect or perform other actions after successful login
-        navigate("/doctoroperations");
-      } catch (error) {
-        console.error("Login error:", error.response ? error.response.data : error.message);
-        // Handle errors (e.g., show an error message)
-      }
-    };
   
     return (
       <>

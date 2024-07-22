@@ -9,6 +9,7 @@ import BookAppointment from "./components/BookAppointment";
 import CancelAppointment from "./components/CancelAppointment";
 import ViewMedication from "./components/ViewMedication";
 import "./App.css";
+import ViewAppointment from "./components/ViewAppointment";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/bookAppointment/:userId" element={<BookAppointment />} />
         <Route path="/cancelAppointment/:userId" element={<CancelAppointment />} />
         <Route path="/getMedication/:userId" element={<ViewMedication />} />
+        <Route path="/viewAppointments" element={<ViewAppointment/>} />
       </Routes>
     </div>
   );

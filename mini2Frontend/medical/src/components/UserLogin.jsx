@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link,useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import axios from 'axios';
 
 export default function UserLogin() {
@@ -22,17 +22,30 @@ export default function UserLogin() {
     };
 
     try {
-      const response = await axios.post("http://localhost:8082/api/auth/login", loginData, {
+      const loginResponse = await axios.post("http://localhost:8082/api/auth/login", loginData, {
         headers: {
           "Content-Type": "application/json",
         },
       });
 
-      const token = response.data.token;
+      const token = loginResponse.data.token;
       // Store the token in local storage
       localStorage.setItem('token', token);
 
-      console.log("Login successful:", response.data);
+      console.log("Login successful:", loginResponse.data);
+
+      // Now use the token to get user details
+      const userDetailsResponse = await axios.post("http://localhost:8082/api/auth/getDetailsByToken", { token }, {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+
+      // Store the user details in local storage
+      localStorage.setItem('user', JSON.stringify(userDetailsResponse.data));
+
+      console.log("User details retrieved successfully:", userDetailsResponse.data);
+
       // Redirect or perform other actions after successful login
       navigate("/useroperations");
     } catch (error) {

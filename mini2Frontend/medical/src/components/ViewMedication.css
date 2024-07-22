@@ -1,0 +1,43 @@
+.btn{
+    margin-right: 5px;
+}
+/* .container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  
+  .button-group .btn {
+    font-size: 1.1rem;
+  } */
+  
+  .medication-details {
+    padding: 1rem;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  .medication-details ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .medication-details p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .mt-5 {
+    margin-top: 3rem;
+  }
+  
+  .mt-4 {
+    margin-top: 2rem;
+  }
+  
+  .mb-4 {
+    margin-bottom: 2rem;
+  }
+  
+  .mb-3 {
+    margin-bottom: 1rem;
+  }
