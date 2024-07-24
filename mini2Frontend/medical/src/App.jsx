@@ -10,6 +10,8 @@ import CancelAppointment from "./components/CancelAppointment";
 import ViewMedication from "./components/ViewMedication";
 import "./App.css";
 import ViewAppointment from "./components/ViewAppointment";
+import PrescribeMedicine from "./components/PrescribeMedicine";
+import EditMedicine from "./components/EditMedicine";
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
         <Route path="/cancelAppointment/:userId" element={<CancelAppointment />} />
         <Route path="/getMedication/:userId" element={<ViewMedication />} />
         <Route path="/viewAppointments" element={<ViewAppointment/>} />
+        <Route path="/prescribeMedicine/:userId" element={<PrescribeMedicine/>} />
+        <Route path="/editMedicine/:userId" element={<EditMedicine/>} />
       </Routes>
     </div>
   );
