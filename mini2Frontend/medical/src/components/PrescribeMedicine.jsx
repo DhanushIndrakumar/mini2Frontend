@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, Link } from 'react-router-dom';
 import axios from 'axios';
-import './ViewAppointment.css'; // Reuse the same CSS
+import './ViewAppointment.css'; 
 
 export default function PrescribeMedicine() {
   const { userId } = useParams(); // Get the user ID from the URL
@@ -19,8 +19,8 @@ export default function PrescribeMedicine() {
       await axios.post(`http://localhost:8082/api/doctor/prescribeMedicine/${userId}`, 
         { mprescription: mprescriptionArray }, {
           headers: {
-            "Authorization": `Bearer ${localStorage.getItem('token')}`, // Include token for authentication if needed
-            "Content-Type": "application/json" // Ensure correct content type
+            "Authorization": `Bearer ${localStorage.getItem('token')}`, 
+            "Content-Type": "application/json" 
           },
         });
       navigate('/viewAppointments'); // Navigate back to the appointments view after successful submission
@@ -53,6 +53,11 @@ export default function PrescribeMedicine() {
           </div>
           <button type="submit" className="btn btn-primary">Submit</button>
         </form>
+        <div className="mt-4 text-center">
+          <Link to="/viewAppointments" className="btn btn-secondary">
+            Click here to go back to View Appointment
+          </Link>
+        </div>
       </div>
     </div>
   );

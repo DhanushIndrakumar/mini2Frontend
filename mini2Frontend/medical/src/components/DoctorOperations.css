@@ -1,4 +1,4 @@
-/* Center the card horizontally */
+
 .card {
     border: 2px solid #007bff; /* Bootstrap primary color for border */
     border-radius: 10px; /* Rounded corners */
@@ -7,14 +7,16 @@
     padding: 20px; /* Add padding inside the card */
   } 
   .just{
-    margin-left:535px;
+    margin-left:520px;
   } 
+
+
   /* Ensure the image fits properly within the card */
   .card-img-top {
     height: auto;
-    max-width: 100%; /* Ensure the image fits within the card */
-    margin: 0 auto; /* Center the image horizontally */
-    display: block; /* Center the image */
+    max-width: 100%; 
+    margin: 0 auto; 
+    display: block; 
   }
   
   /* Style the card title */

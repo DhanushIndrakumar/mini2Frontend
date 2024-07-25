@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
-//import "./Home.css";
+
 
 export default function Home() {
   const [name, setName] = useState("");
@@ -36,14 +36,11 @@ export default function Home() {
       });
 
       console.log("Success:", response.data);
-      // Store the registration response in local storage
-    //   localStorage.setItem('user', JSON.stringify(response.data));
-
-      // Redirect to the user login page
+      
       navigate("/userlogin");
     } catch (error) {
       console.error("Error:", error.response ? error.response.data : error.message);
-      // Handle errors (e.g., show an error message)
+      
     }
   };
 

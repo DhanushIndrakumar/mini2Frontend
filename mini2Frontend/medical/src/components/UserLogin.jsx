@@ -6,6 +6,7 @@ export default function UserLogin() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [isPlaceholderVisible, setIsPlaceholderVisible] = useState(true);
+  const [errorMessage, setErrorMessage] = useState(null);
   const navigate = useNavigate();
 
   const handlePasswordChange = (event) => {
@@ -29,6 +30,10 @@ export default function UserLogin() {
       });
 
       const token = loginResponse.data.token;
+      if (!token) {
+        throw new Error("No token received");
+      }
+
       // Store the token in local storage
       localStorage.setItem('token', token);
 
@@ -50,7 +55,7 @@ export default function UserLogin() {
       navigate("/useroperations");
     } catch (error) {
       console.error("Login error:", error.response ? error.response.data : error.message);
-      // Handle errors (e.g., show an error message)
+      setErrorMessage("Sorry, Not able to login");
     }
   };
 
@@ -89,6 +94,14 @@ export default function UserLogin() {
               Submit
             </button>
           </form>
+          {errorMessage && (
+            <div className="mt-3 text-danger">
+              <p>{errorMessage}</p>
+            </div>
+          )}
+           <div className="mt-3">
+            <Link to="/">Click to go back to Registration Form</Link>
+          </div>
         </div>
       </div>
     </>

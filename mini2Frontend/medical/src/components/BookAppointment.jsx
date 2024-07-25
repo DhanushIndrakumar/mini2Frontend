@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 export default function BookAppointment() {
@@ -26,12 +27,12 @@ export default function BookAppointment() {
       setAppointmentResponse(response.data); // Set the response in the state
       localStorage.setItem('appointmentResponse', JSON.stringify(response.data)); // Store the response in local storage
       setError(null); // Reset any previous errors
-      // Handle successful booking (e.g., show a success message, redirect to another page, etc.)
+      
     } catch (error) {
       console.error("Error booking appointment:", error.response ? error.response.data : error.message);
       setError("Sorry, Couldn't book Appointment"); // Set a default error message
       setAppointmentResponse(null); // Reset the response in case of error
-      // Handle errors (e.g., show an error message)
+      
     }
   };
 
@@ -72,12 +73,14 @@ export default function BookAppointment() {
             <h3>Appointment Details:</h3>
             <p><strong>Appointment ID:</strong> {appointmentResponse.aid}</p>
             <p><strong>Appointment Date:</strong> {appointmentResponse.adate.substring(0, 10)}</p>
+            <Link to="/useroperations" className="btn btn-link">Click here to go back to User Operations</Link>
           </div>
         )}
 
         {error && (
           <div className="AddBorder p-3 mt-4">
             <h2>{error}</h2>
+            <Link to="/useroperations" className="btn btn-link">Click here to go back to User Operations</Link>
           </div>
         )}
       </div>

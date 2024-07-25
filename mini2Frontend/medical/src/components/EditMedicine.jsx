@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import axios from 'axios';
 import './ViewAppointment.css'; // Reuse the same CSS
 
@@ -17,12 +17,12 @@ export default function EditMedicine() {
       const response = await axios.post(`http://localhost:8082/api/doctor/editMedicineList/${userId}`,
         { mprescription: mprescriptionList }, {
           headers: {
-            "Authorization": `Bearer ${localStorage.getItem('token')}`, // Include token for authentication if needed
-            "Content-Type": "application/json" // Ensure correct content type
+            "Authorization": `Bearer ${localStorage.getItem('token')}`, 
+            "Content-Type": "application/json" 
           },
         });
-      localStorage.setItem('currentPrescription', response.data.join(', ')); // Store response data in local storage
-      setResponseMessage(response.data.join(', ')); // Update the state with new prescription
+      localStorage.setItem('currentPrescription', response.data.join(', ')); 
+      setResponseMessage(response.data.join(', ')); 
     } catch (error) {
       console.error("Error updating medicine:", error.response ? error.response.data : error.message);
       setError("Sorry, couldn't update medicine.");
@@ -45,7 +45,7 @@ export default function EditMedicine() {
               type="text"
               className="form-control"
               id="mprescription"
-              placeholder="Re-enter medicines"
+              placeholder="Re-enter medicines seperated by commas"
               value={mprescription}
               onChange={(e) => setMprescription(e.target.value)}
             />
@@ -58,6 +58,11 @@ export default function EditMedicine() {
             <p>{responseMessage}</p>
           </div>
         )}
+        <div className="mt-4 text-center">
+          <Link to="/viewAppointments" className="btn btn-secondary">
+            Click here to go back to View Appointment
+          </Link>
+        </div>
       </div>
     </div>
   );

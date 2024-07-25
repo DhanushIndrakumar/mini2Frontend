@@ -6,6 +6,11 @@ export default function UserOperations() {
   const user = JSON.parse(localStorage.getItem('user'));
   const userId = user ? user.userId : '';
 
+  const handleLogout = () => {
+    localStorage.removeItem('token');
+    localStorage.removeItem('user');
+  };
+
   return (
     <>
       <div className="AddBorder p-3">
@@ -85,6 +90,12 @@ export default function UserOperations() {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="mt-3 text-center">
+          <Link to="/" onClick={handleLogout} className="btn btn-danger">
+            Click here to go back to Registration Form
+          </Link>
         </div>
       </div>
     </>

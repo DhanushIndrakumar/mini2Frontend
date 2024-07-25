@@ -1,20 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
-import './ViewAppointment.css'; // Import custom CSS if needed
+import { useNavigate, Link } from 'react-router-dom'; 
+import './ViewAppointment.css'; 
 
 export default function ViewAppointment() {
   const [appointments, setAppointments] = useState([]);
   const [error, setError] = useState(null);
   const [showAppointments, setShowAppointments] = useState(false);
-  const navigate = useNavigate(); // Initialize useNavigate
-
+  const navigate = useNavigate(); 
   const handleViewAppointments = async () => {
     if (!showAppointments) {
       try {
         const response = await axios.get('http://localhost:8082/api/doctor/getAppointments', {
           headers: {
-            "Authorization": `Bearer ${localStorage.getItem('token')}`, // Include token for authentication if needed
+            "Authorization": `Bearer ${localStorage.getItem('token')}`, 
           },
         });
         localStorage.setItem('appointments', JSON.stringify(response.data)); // Store response in local storage
@@ -33,7 +32,7 @@ export default function ViewAppointment() {
     try {
       await axios.delete(`http://localhost:8082/api/doctor/deleteAppointment/${appointmentId}`, {
         headers: {
-          "Authorization": `Bearer ${localStorage.getItem('token')}`, // Include token for authentication if needed
+          "Authorization": `Bearer ${localStorage.getItem('token')}`, 
         },
       });
       setAppointments(appointments.filter(appointment => appointment.aid !== appointmentId));
@@ -54,7 +53,7 @@ export default function ViewAppointment() {
   };
 
   useEffect(() => {
-    // Load appointments from local storage if available
+    // Load appointments from local storage 
     const storedAppointments = JSON.parse(localStorage.getItem('appointments'));
     if (storedAppointments) {
       setAppointments(storedAppointments);
@@ -117,6 +116,11 @@ export default function ViewAppointment() {
             )}
           </div>
         )}
+        <div className="mt-4 text-center">
+          <Link to="/doctoroperations" className="btn btn-secondary">
+            Click here to go back to the previous page
+          </Link>
+        </div>
       </div>
     </div>
   );

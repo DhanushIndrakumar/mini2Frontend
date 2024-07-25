@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
-import './ViewMedication.css'; // Import custom CSS if needed
-
+import './ViewMedication.css'; 
 export default function ViewMedication() {
   const [medication, setMedication] = useState(null); // State to store medication details
   const [error, setError] = useState(null); // State to store any error

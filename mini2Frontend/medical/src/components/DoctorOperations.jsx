@@ -2,8 +2,12 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import './DoctorOperations.css';
 
-
 export default function DoctorOperations() {
+  const handleLogout = () => {
+    localStorage.removeItem('token');
+    localStorage.removeItem('doctor');
+  };
+
   return (
     <>
       <div className="AddBorder p-3">
@@ -34,6 +38,12 @@ export default function DoctorOperations() {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="mt-3  just1">
+          <Link to="/" onClick={handleLogout} className="btn btn-danger">
+            Click here to go back to Registration Form
+          </Link>
         </div>
       </div>
     </>
