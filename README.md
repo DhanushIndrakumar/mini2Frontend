@@ -55,8 +55,7 @@ git clone https://github.com/DhanushIndrakumar/mini2Backend.git
 
 + Once the backend is working. Developer can go through the OpenApi documentation as it gives more understanding and working of the APIs.
 
- ![Capture](https://github.com/DhanushIndrakumar/Sunbase/assets/111871670/8d61a020-e1d0-423f-8148-3b61fb6c3406)
-
+ ![image](https://github.com/user-attachments/assets/33dc07af-548d-4bfb-b4b7-79c007dbebab)
 + We can see the API Documentation at
 
 ```bash
