@@ -64,24 +64,24 @@ git clone https://github.com/DhanushIndrakumar/mini2Backend.git
 + we need to first execute the register and login user APIs for the other APIs to work.
 
 
-**5. Exploring the Api to insert or create User(Customer) in the database**
+**5. Exploring the Api to insert or create User(patient) in the database**
 
 + The register and Login API does not require any authentication as it forms the base for the user details being stored in the database and then authenticated when they attempt to login. 
 
 + The request body of the API with the response body is shown below:
 
-  ![Capture2](https://github.com/DhanushIndrakumar/Sunbase/assets/111871670/22f803a8-880f-4c0e-a8b5-bd6336262841)
+![image](https://github.com/user-attachments/assets/c4dd45f2-830d-4290-a42c-98986da0b4c2)
 
 **6. JWT generation using Login API**
 
 + Api works in OpenApi documentation as well.The image below shows the request and the response body of the Login Api.
 
-  ![Capture3](https://github.com/DhanushIndrakumar/Sunbase/assets/111871670/a9e7a5cf-1110-4152-994f-49a2cddc7d14)
+![image](https://github.com/user-attachments/assets/cff77088-f0e8-4864-bcec-7b0ca52324de)
 
 + As seen in the above image JWT is being generated using which other APIs can be accessed without which 403 error will be shown.
 
-**7. Testing the API to retrieve User(Customer) details without inserting token in the header**
+**7. Testing the API to book the appointment without inserting token in the header**
 
-![Capture4](https://github.com/DhanushIndrakumar/Sunbase/assets/111871670/a111ff6d-263b-4ea8-af75-6f7ff964ff3e)
+![image](https://github.com/user-attachments/assets/6c8121c5-d6aa-44ab-846f-12a127c44e33)
 
-+ It can be seen that without being authenticated the user cannot access other APIs which performs operations such Updating, Deleting and Retrieving Customer Details.
++ It can be seen that without being authenticated the user cannot access other APIs which performs operations such as Booking,Cancelling appointments etc.
