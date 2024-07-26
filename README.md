@@ -92,7 +92,7 @@ git clone https://github.com/DhanushIndrakumar/mini2Backend.git
 
 + It can be seen that once the user/pateint is authenticated the user can access other APIs which performs operations such as Booking,Cancelling appointments etc.
 
-+ We can see that appointment ID and appointment Date has been receieved as response.
++ We can see that appointment ID and appointment Date has been recieved as response.
 
 + The same works for all other APIs .JWT forms the most important aspect in any security systems.
 
@@ -106,7 +106,7 @@ git clone https://github.com/DhanushIndrakumar/mini2Backend.git
 
   ![image](https://github.com/user-attachments/assets/33c1be9c-d4b8-474b-a112-0c864c76bf00)
 
-+ When the User clicks on next Button it is directed to login page as shown below and the user is asked to enter email and password post which JWT will be generated and the user will be authenticated.
++ When the User provides all form details and click on submit, user is directed to login page as shown below and the user is asked to enter email and password post which JWT will be generated and the user will be authenticated.
 
  ![image](https://github.com/user-attachments/assets/a4d6a7fe-9a6c-464d-8872-796ad117cb6b)
 
@@ -135,6 +135,23 @@ git clone https://github.com/DhanushIndrakumar/mini2Backend.git
 ![image](https://github.com/user-attachments/assets/928a79a3-515c-48e2-83ce-cae4c7d55bde)
 
 + As soon as Admin/Doctor login he is redirected to Doctor Operations page as shown in the above image.
+
+![image](https://github.com/user-attachments/assets/8d821156-7d50-4fb8-9940-f62afc15cde2)
+
++ When Doctor clicks on View Appointment, All the appointments booked is shown in the above image.
+
+  ![image](https://github.com/user-attachments/assets/122bd6f0-14b5-40cc-9494-9df98fb4fb49)
+
++ Doctor when clicked on delete, the appointment will be deleted and the same is shown in the above image, here the user name Latha's appointment has been cancelled.
+  
+![image](https://github.com/user-attachments/assets/0e9bb8ee-fd95-4f88-ba1f-c50516e14b8d)
+
++ Doctor when clicked on Prescribe Medicine he/she is allowed to presribe medicine and medicine list can be viewed by the patient and the same is shown in the above image.
+
++ Doctor can also edit the medicine list if required.
+
+
+  
 
 
    
