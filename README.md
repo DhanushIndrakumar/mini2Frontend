@@ -85,3 +85,11 @@ git clone https://github.com/DhanushIndrakumar/mini2Backend.git
 ![image](https://github.com/user-attachments/assets/6c8121c5-d6aa-44ab-846f-12a127c44e33)
 
 + It can be seen that without being authenticated the user cannot access other APIs which performs operations such as Booking,Cancelling appointments etc.
+
+**8. Testing the API to retrive User(Customer) details with inserting JWT in the header**
+
+![Capture5](https://github.com/DhanushIndrakumar/Sunbase/assets/111871670/93af5701-7196-4b93-a565-b58322a0e52d)
+
++ It can be seen that once the user/pateint is authenticated the user can access other APIs which performs operations such as Booking,Cancelling appointments etc.
+
++ The same works for all other APIs .JWT forms the most important aspect in any security systems.
