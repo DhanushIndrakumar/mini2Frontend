@@ -95,3 +95,46 @@ git clone https://github.com/DhanushIndrakumar/mini2Backend.git
 + We can see that appointment ID and appointment Date has been receieved as response.
 
 + The same works for all other APIs .JWT forms the most important aspect in any security systems.
+
+**9. Running the Frontend application**
+
++ Frontend is being connected to backend APIs using Axios and it can also be performed using Fetch and Redux toolkit.
+
++ Open Frontend Folder through VSCode after cloning and give the command npm start.
+
++ The first page that appears is as shown below:
+
+  ![image](https://github.com/user-attachments/assets/33c1be9c-d4b8-474b-a112-0c864c76bf00)
+
++ When the User clicks on next Button it is directed to login page as shown below and the user is asked to enter email and password post which JWT will be generated and the user will be authenticated.
+
+ ![image](https://github.com/user-attachments/assets/a4d6a7fe-9a6c-464d-8872-796ad117cb6b)
+
++ After the user is being authenticated login page is directed to User Operations page, Where the user can view all the User Operations that can be performed in the system
+
+![image](https://github.com/user-attachments/assets/487fcd7c-4459-4b89-8c24-b9403624a4a9)
+
++ If the User clicks on Book Appointment, he/she will be directed to Book Appointment page
+
+![image](https://github.com/user-attachments/assets/fdbfc643-6fcc-43bf-887d-cd656d5b056a)
+
++ We can see that the appointment has been successfully booked also getting the appointment ID and appointment date as response.
+
+  ![image](https://github.com/user-attachments/assets/337b3dca-33fb-47c8-bf4c-fabdd9efff52)
+
++ The above image shows that the appointment booked can also be cancelled under circumstances.
+
+ ![image](https://github.com/user-attachments/assets/b7a2bace-c4c8-4093-925b-4bccf1c59858)
+
++ It can be seen in the above image that when the patient clicks on View Medication nothing will be shown as of now since doctor has not prescribed the medicine yet.
+
+ ![image](https://github.com/user-attachments/assets/1a8d62ab-6bfb-4c60-aadc-247389510526)
+
++ We also have admin/login shown in the above image.
+  
+![image](https://github.com/user-attachments/assets/928a79a3-515c-48e2-83ce-cae4c7d55bde)
+
++ As soon as Admin/Doctor login he is redirected to Doctor Operations page as shown in the above image.
+
+
+   
