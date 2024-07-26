@@ -1,5 +1,6 @@
 # mini2Frontend
 This is the repository consisting the frontend part of minor project 2
+Kindly consider only the mini2Frontend Folder for the project, there has been a mistake by uploading the other files as well.
 
 #Requirements
 
@@ -50,3 +51,15 @@ git clone https://github.com/DhanushIndrakumar/mini2Backend.git
   
 + Since the port is set to localhost:8082 and the user is free to change the port if they wish.
 
+**4. Explore Rest APIs**
+
++ Once the backend is working. Developer can go through the OpenApi documentation as it gives more understanding and working of the APIs.
+
+ ![Capture](https://github.com/DhanushIndrakumar/Sunbase/assets/111871670/8d61a020-e1d0-423f-8148-3b61fb6c3406)
+
++ We can see the API Documentation at
+
+```bash
+    http://localhost:8082/swagger-ui/index.html#/
+```
++ we need to first execute the register and login user APIs for the other APIs to work.
